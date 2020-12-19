@@ -181,6 +181,27 @@ section {
   margin-bottom: 2em;
 }
 
+.footer-container {
+  background: #6700ee;
+  height: 10em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.social-footer {
+  ul {
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    justify-content: space-between;
+    justify-items: center;
+    width: 9em;
+  }
+}
+
 @media only screen and (min-width: 800px) {
   .featured,
   .portfolio {
