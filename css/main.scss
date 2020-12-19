@@ -185,11 +185,18 @@ section {
   background: #6700ee;
   height: 10em;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
 }
-
+#scrollToTopBtn {
+  background-color: #6700ee;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
 .social-footer {
   ul {
     display: grid;

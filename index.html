@@ -354,6 +354,9 @@
         <div>
           <p>Copyright &copy; <span id="year"></span> Ilhan Kalač</p>
         </div>
+        <div>
+          <button id="scrollToTopBtn">☝️</button>
+        </div>
         <div class="social-footer">
           <ul>
             <li>
@@ -382,6 +385,19 @@
     </footer>
   </body>
 </html>
+
+<!-- SCROLLING TO THE TOP FROM FOOTER -->
+<script>
+  var rootElement = document.documentElement;
+  scrollToTopBtn.addEventListener("click", scrollToTop);
+  function scrollToTop() {
+    // Scroll to top logic
+    rootElement.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+</script>
 
 <!-- GETTING THE CURRENT YEAR OF THE DOCUMENT -->
 <script>
