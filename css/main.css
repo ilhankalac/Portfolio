@@ -63,9 +63,13 @@ p {
 .dot {
   height: 50px;
   width: 50px;
-  background-color: #bbb;
+  background-color: #F9C128;
   border-radius: 50%;
   display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 .languages {
