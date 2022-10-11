@@ -41,10 +41,11 @@ p {
   font-size: smaller;
   background-color: #242430;
   padding:30px;
+  width: 235px;
 }
 
 .more-details-for-me{
-  padding: 20px;
+  padding: 30px;
   background-color: #20202A;
 }
 
@@ -54,5 +55,38 @@ p {
 }
 
 .more-details-for-me .item {
-display:flex; font-size: small; justify-content: space-between;
+  display:flex; 
+  font-size: small; 
+  justify-content: space-between;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.languages {
+  gap: 10px;
+  margin: 30px 0px;
+}
+
+.languages .circles{
+  display:flex;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.languages .header{
+  color: #fff;
+  font-size: smaller;
+  margin-bottom: 20px;
+}
+
+.languages .circles .dot-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
 }
