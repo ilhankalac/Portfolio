@@ -192,3 +192,8 @@ p {
   justify-content: center;
   gap: 10px;
 }
+
+.specific-knowledge {
+  display:flex;
+  color: #fff;
+}
