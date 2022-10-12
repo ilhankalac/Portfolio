@@ -49,6 +49,18 @@ p {
   background-color: #20202A;
 }
 
+.wrapper {
+  max-height: 550px;
+  overflow-y: scroll;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
 
 .color-font {
   color: #89898B;
