@@ -112,7 +112,7 @@ p {
 .skills-section .specific-skill {
   display: flex;
   flex-direction: column;
-  gap:15px;
+  margin-bottom: 15px;
 }
 
 .progress.html {
@@ -141,4 +141,42 @@ p {
   background: orange;
   width: 80%;
   height: 100%;
+}
+
+.progress.firebase {
+  background: #333;
+  height: 5px;
+  width: 100%;
+}
+
+.progress.firebase:after {
+  content: '';
+  display: block;
+  background: orange;
+  width: 70%;
+  height: 100%;
+}
+
+.progress.sql {
+  background: #333;
+  height: 5px;
+  width: 100%;
+}
+
+.progress.sql:after {
+  content: '';
+  display: block;
+  background: orange;
+  width: 60%;
+  height: 100%;
+}
+
+.bottom-left-panel{
+  height: 50px;
+  background-color:#24232E;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
