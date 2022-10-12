@@ -72,25 +72,73 @@ p {
   color: #fff;
 }
 
-.languages {
+.skills-section {
   gap: 10px;
   margin: 30px 0px;
 }
 
-.languages .circles{
+.skills-section .circles{
   display:flex;
   justify-content: space-between;
   font-size: small;
 }
 
-.languages .header{
+.skills-section .header{
   color: #fff;
   font-size: smaller;
   margin-bottom: 20px;
 }
 
-.languages .circles .dot-item {
+.skills-section .circles .dot-item {
   display: flex;
   flex-direction: column;
   gap: 10px
+}
+
+.progress.javascript {
+  background: #333;
+  height: 5px;
+  width: 100%;
+}
+
+.progress.javascript:after {
+  content: '';
+  display: block;
+  background: orange;
+  width: 90%;
+  height: 100%;
+}
+
+.skills-section .specific-skill {
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+.progress.html {
+  background: #333;
+  height: 5px;
+  width: 100%;
+}
+
+.progress.html:after {
+  content: '';
+  display: block;
+  background: orange;
+  width: 95%;
+  height: 100%;
+}
+
+.progress.vue {
+  background: #333;
+  height: 5px;
+  width: 100%;
+}
+
+.progress.vue:after {
+  content: '';
+  display: block;
+  background: orange;
+  width: 80%;
+  height: 100%;
 }
