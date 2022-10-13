@@ -14,8 +14,31 @@ p {
 }
 
 .main-body{
-  display:flex;
+  display:grid;
+  grid-template-areas: 
+  "leftside top top"
+  "leftside mid mid"
+  "leftside bottom bottom"
+  ;
+  grid-template-columns: 300px 4fr;
+  grid-template-rows: 50px auto 100px;
 }
+
+.top-nav {
+  grid-area: top;
+  background-color: #F9C128;
+}
+
+.middle-section {
+  grid-area: mid;
+  background-color: red;
+}
+
+.bottom-section {
+  grid-area: bottom;
+  background-color: green;
+} 
+
 
 
 .my-photo{
@@ -30,11 +53,9 @@ p {
 
 
 .left-panel {
-  display:flex;
-  flex-direction: column;
   height: 100vh;
-  margin-left: 10%;
   position: relative;
+  grid-area: leftside;
 }
 
 .top-info {
@@ -42,7 +63,6 @@ p {
   font-size: smaller;
   background-color: #242430;
   padding:30px;
-  width: 235px;
 }
 
 .more-details-for-me{
