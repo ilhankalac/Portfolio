@@ -16,10 +16,9 @@ p {
 .main-body{
   display:grid;
   grid-template-areas: 
-  "leftside top top"
-  "leftside mid mid"
-  "leftside bottom bottom"
-  ;
+    "leftside top top"
+    "leftside mid mid"
+    "leftside bottom bottom";
   grid-template-columns: 300px 4fr;
   grid-template-rows: 50px auto 100px;
 }
