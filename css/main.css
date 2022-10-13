@@ -8,11 +8,10 @@ body {
   box-sizing: border-box;
 }
 
-p, h1{
-  margin:0;
+p, h1, code{
+  margin: 0;
   padding: 0;
 }
-
 
 .main-body{
   display:grid;
