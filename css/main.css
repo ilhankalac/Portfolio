@@ -20,12 +20,14 @@ p {
     "leftside mid mid"
     "leftside bottom bottom";
   grid-template-columns: 300px 4fr;
-  grid-template-rows: 50px auto 100px;
+  grid-template-rows: 400px auto 100px;
+  margin: 50px 150px 0 150px;
 }
 
 .top-nav {
   grid-area: top;
-  background-color: #F9C128;
+  padding: 30px;
+  background-color: #201F28;
 }
 
 .middle-section {
@@ -37,8 +39,6 @@ p {
   grid-area: bottom;
   background-color: green;
 } 
-
-
 
 .my-photo{
   border-radius: 90px;
@@ -52,7 +52,6 @@ p {
 
 
 .left-panel {
-  height: 100vh;
   position: relative;
   grid-area: leftside;
 }
