@@ -27,6 +27,7 @@ p, h1, code{
 .top-section {
   display:flex;
   flex-direction: row;
+  justify-content: space-between;
   grid-area: top;
   padding: 0 30px;
   background-color: #201F28;
@@ -39,7 +40,11 @@ p, h1, code{
 
 .middle-section {
   grid-area: mid;
-  background-color: red;
+  background-color: #191923;
+  display:flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 100%;
 }
 
 .bottom-section {
@@ -251,4 +256,21 @@ p, h1, code{
   display:flex; align-items: center; 
   justify-content: center; 
   font-weight: bold;
+}
+
+
+.middle-section .work-data{
+  display:flex;
+  gap:5px;
+}
+
+.middle-section .work-data .number-span{
+  color:#F9C128;
+  font-size: x-large;
+}
+
+.middle-section .work-data .description {
+  color: #fff; 
+  margin-top: 8px; 
+  font-size: small;
 }
