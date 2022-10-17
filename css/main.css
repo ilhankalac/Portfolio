@@ -282,11 +282,27 @@ p, h1, h3, code{
 .services {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .service-box {
   background-color: #2D2C38;
   height: 240px; 
   width: 100%;
-  margin: 0 0 20px 20px;
+  margin: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.service-box .item {
+  font-size:small; 
+  color: #8c8c8e;
+}
+
+.service-box .order-button{
+  color:#F9C128;
+  font-size: small; 
+  font-weight: bold;
 }
