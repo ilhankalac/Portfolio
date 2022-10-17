@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
 }
 
-p, h1, code{
+p, h1, h3, code{
   margin: 0;
   padding: 0;
 }
@@ -29,7 +29,6 @@ p, h1, code{
   flex-direction: row;
   justify-content: space-between;
   grid-area: top;
-  padding: 0 30px;
   background-color: #201F28;
   background-image: linear-gradient(rgba(73, 70, 70, 0.5), rgba(161, 153, 153, 0.5)), url("/images/komovi.jpg");
   background-attachment: fixed;
@@ -41,8 +40,6 @@ p, h1, code{
 .middle-section {
   grid-area: mid;
   background-color: #191923;
-  display:flex;
-  justify-content: space-between;
   padding: 0 30px;
   height: 100%;
 }
@@ -64,8 +61,10 @@ p, h1, code{
 
 
 .left-panel {
-  position: relative;
+  position: fixed;
   grid-area: leftside;
+  min-width: 300px;
+
 }
 
 .top-info {
@@ -126,9 +125,9 @@ p, h1, code{
   font-size: small;
 }
 
-.skills-section .header{
+.header{
   color: #fff;
-  font-size: smaller;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
@@ -261,7 +260,7 @@ p, h1, code{
 
 .middle-section .work-data{
   display:flex;
-  gap:5px;
+  gap:15px;
 }
 
 .middle-section .work-data .number-span{
@@ -273,4 +272,21 @@ p, h1, code{
   color: #fff; 
   margin-top: 8px; 
   font-size: small;
+}
+
+.top-mid {
+  display:flex;
+  justify-content: space-between;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-box {
+  background-color: #2D2C38;
+  height: 240px; 
+  width: 320px;
+  margin: 15px;
 }
